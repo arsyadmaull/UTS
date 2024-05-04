@@ -27,13 +27,13 @@ class Mahasiswa {
 class MyApp extends StatelessWidget {
   final List<Mahasiswa> daftarMahasiswa = [
     Mahasiswa(
-      nama: 'Arsyad Maullana',
-      nim: 'STI202102477',
+      nama: 'Titin Sulistiyani',
+      nim: 'STI202102566',
       prodi: 'Teknik Informatika',
-      alamat: 'Jl.Veteran Pasirmuncang Purwokerto Barat',
-      email: 'syadul31.05@gmail.com',
-      noHp: '087777241810',
-      foto: 'img/Arsyad.jpg',
+      alamat: 'Tegal, Jateng',
+      email: 'tiyatitina01@gmail.com',
+      noHp: '088983766674',
+      foto: 'img/Titin.jpg',
     ),
     // Tambahkan data mahasiswa lainnya di sini
   ];
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                       child: Image.asset(
                         daftarMahasiswa[index].foto,
                         fit: BoxFit.cover,
-                        height: 800,
+                        height: 350,
                         width: double.infinity,
                       ),
                     ),
